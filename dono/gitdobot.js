@@ -22,7 +22,7 @@ cd /sdcard/
 - 2 Comando >
 
 
-git clone https://github.com/NuevaGeneracionALB/aleatory-md
+git clone https://github.com/fabinhojcr/aleatory-md
 
 
 - 3 Comando >
