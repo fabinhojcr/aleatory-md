@@ -92,11 +92,11 @@ const getRandom = (ext) => {
 const spinner = { 
   "interval": 150,
   "frames": [
-"A",
-"AL",
-"ALEA",
-"ALEATORY",
-"ALEATORY-MD",
+"F",
+"FB",
+"Fαbiи",
+"Fαbiи_Bot",
+"FΑBIИ_BOT-MD ",
   ]}
 
 const spinner2 = { 
@@ -149,7 +149,7 @@ colors: [`${cor3}`,`${cor1}`,`${cor5}`],
 lineHeight: 1
 });
  
-const banner3 = cfonts.render((`ALEATORY MD 3.0`), {
+const banner3 = cfonts.render((`Fαbiи_Bot-md`), {
 font: 'tiny',             
 align: 'center',           
 colors: [`${cor1}`,`${cor3}`,`${cor4}`,`${cor2}`],
@@ -219,11 +219,11 @@ const cmdadd = () => {
 	fs.writeFileSync('./datab/data/totalcmd.json', JSON.stringify(ceemde))
 }
 
-authorname = 'ALEATORY-MD-3.0'
-packname = '-JR-'
+authorname = 'Fαbiи_Bot-md'
+packname = '-FB-'
   
 function addMetadata(packname, author) {	
-if (!packname) packname = '-JR-'; if (!author) author = 'ALEATORY-MD-3.0';	
+if (!packname) packname = '-FB-'; if (!author) author = 'Fαbiи_Bot-md';	
 author = author.replace(/[^a-zA-Z0-9]/g, '');	
 let name = `${author}_${packname}`
 if (fs.existsSync(`./armor/stickers/${name}.exif`)) return `./armor/stickers/${name}.exif`
@@ -259,7 +259,7 @@ return `./armor/stickers/${name}.exif`
 
 const usedCommandRecently = new Set()
 
-chyt = `558198923680@s.whatsapp.net`
+chyt = `5521979071302@s.whatsapp.net`
 
 const isFiltered = (userId) => !!usedCommandRecently.has(userId)
 
